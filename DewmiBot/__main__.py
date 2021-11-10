@@ -57,12 +57,12 @@ from DewmiBot import (
     updater,
 )
 
-from DewmiBot.modules import ALL_MODULES
-from DewmiBot.modules.helper_funcs.alternate import typing_action
-from DewmiBot.modules.helper_funcs.chat_status import is_user_admin
-from DewmiBot.modules.helper_funcs.misc import paginate_modules
-from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
-from DewmiBot.modules.system_stats import bot_sys_stats
+from Maxrobot.modules import ALL_MODULES
+from Maxrobot.modules.helper_funcs.alternate import typing_action
+from Maxrobot.modules.helper_funcs.chat_status import is_user_admin
+from Maxrobot.modules.helper_funcs.misc import paginate_modules
+from Maxrobot.modules.helper_funcs.readable_time import get_readable_time
+from Maxrobot.modules.system_stats import bot_sys_stats
 
 
 PM_START_TEXT = """
