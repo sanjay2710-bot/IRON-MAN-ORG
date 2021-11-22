@@ -66,7 +66,7 @@ from DewmiBot.modules.system_stats import bot_sys_stats
 
 
 PM_START_TEXT = """
-Hey there!👋  My name is Rose ✨
+Hey there!👋  My name is IRON MAN✨
 I can manage your  group with lots of useful features with advance AI system.
 
 feel free to add me to your group.
@@ -74,7 +74,7 @@ feel free to add me to your group.
 
 HELP_STRINGS = f"""
 Main Commands 
-Hey there! My name is  Rose bot ✨
+Hey there! My name is  IRON MAN✨
 I'm Powerful BOT to Make Your Groups Secured and Organized & I help admins to manage their groups! Have a look at the following for an idea of some of the things I can help you with.
 
 Main commands available:
@@ -92,7 +92,7 @@ Main commands available:
 DONATE_STRING = """
 𝑯𝒆𝒚𝒂, 𝒈𝒍𝒂𝒅 𝒕𝒐 𝒉𝒆𝒂𝒓 𝒚𝒐𝒖 𝒘𝒂𝒏𝒕 𝒕𝒐 𝒅𝒐𝒏𝒂𝒕𝒆!
 𝒀𝒐𝒖 𝒄𝒂𝒏 𝒅𝒐𝒏𝒂𝒕𝒆 𝒕𝒐 𝒕𝒉𝒆 𝒐𝒓𝒊𝒈𝒊𝒏𝒂𝒍 𝒘𝒓𝒊𝒕𝒆𝒓'𝒔 𝒐𝒇 𝒕𝒉𝒆 𝑩𝒂𝒔𝒆 𝒄𝒐𝒅𝒆,
-𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝒕𝒉𝒆𝒎 [Youtube](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA)
+𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝒕𝒉𝒆𝒎 [Youtube](https://www.youtube.com/channel/UCyn4TDQEBaQE_pT22oJtfLg)
 """
 STICKERS = "CAACAgUAAx0CS6YhoQAC02VhQUW7iB4ci3lcSXHtLVOjFzZlDQACUQMAAvPvEVY76k2QN6u20iAE"   
 
@@ -104,7 +104,7 @@ BUTTONS = (
             ),
             InlineKeyboardButton(
                 text="Repo 📦",
-                url="https://github.com/youtubeslgeekshow/sz-rose-bot",
+                url="gfgfgfgfgfgfg",
             ),
         ],
         [
@@ -119,18 +119,18 @@ BUTTONS = (
         [
             InlineKeyboardButton(
                 text="Add Me To Your Group🎉",
-                url=f"http://t.me/szrosebot?startgroup=true",
+                url=f"http://t.me/snt_iron_man_ro_bot?startgroup=true",
             )
         ],
     ]
 )
 
 
-TEXT = """ Hey there! My name is Rose bot ✨ - A powerful group management bot which can help you to manage your groups effectively as possible With   Advanced AI . 
+TEXT = """ Hey there! My name is IRON MAN ✨ - A powerful group management bot which can help you to manage your groups effectively as possible With   Advanced AI . 
 
 Click `Main menu` button for more information.
 
-Join my [Updates channel](https://t.me/SL_bot_zone) to get information on all the latest updates.  """
+Join my [Updates ](https://t.me/SLninjaTeamchannel) to get information on all the latest updates.  """
 
 MENU = (
     [
@@ -146,7 +146,7 @@ MENU = (
         [
             InlineKeyboardButton(
                 text="Add Me To Your Group🎉",
-                url="http://t.me/szrosebot?startgroup=true",
+                url="http://t.me/snt_iron_man_ro_bot?startgroup=true",
             )
         ],
     ]
@@ -275,7 +275,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Updates", url ="https://t.me/szroseupdates")]],
+                [[InlineKeyboardButton(text="Updates", url ="https://t.me/ironmanofficical")]],
             ),
         )
     
@@ -399,7 +399,7 @@ def DewmiBot_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f" @szrosebot🇱🇰 - A bot to manage your groups with additional features!"
-            f"\n\n Here's the basic help regarding use of @szrosebot🇱🇰."
+            f"\n\n Here's the basic help regarding use of @ironmanofficical."
             f"\n\n Almost all modules usage defined in the help menu, checkout by sending `/help`"
             f"\n\n Report error/bugs click the Button ",
             parse_mode=ParseMode.MARKDOWN,
@@ -408,15 +408,15 @@ def DewmiBot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ🐞", url="t.me/slbotzone"
+                            text="Bᴜɢ'ꜱ🐞", url="https://t.me/ironmanofficical"
                         ),
                         InlineKeyboardButton(
-                            text="updates💁‍♀️", url="t.me/sl_bot_zone"
+                            text="updates💁‍♀️", url="https://t.me/SLninjaTeamchannel"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Donate 🤕", url="http://t.me/szrosebot?start=donate"
+                            text="Donate 🤕", url="http://t.me/snt_iron_man_ro_bot?start=donate"
                         ),
                         InlineKeyboardButton(
                             text="Inline search 🔎", switch_inline_query_current_chat=""
@@ -562,7 +562,7 @@ def get_help(update, context):
                         [
                             InlineKeyboardButton(
                                 text="Help",
-                                url="t.me/{}?start=ghelp_{}".format(
+                                url="http://t.me/snt_iron_man_ro_bot?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
                             )
@@ -578,7 +578,7 @@ def get_help(update, context):
                     [
                         InlineKeyboardButton(
                             text="Click me for help!",
-                            url="https://t.me/szrosebot",
+                            url="http://t.me/snt_iron_man_ro_bot",
                         )
                     ],
                 ]
